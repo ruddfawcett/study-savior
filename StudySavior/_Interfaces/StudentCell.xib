@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="CircularStd-Black.otf">
+            <string>CircularStd-Black</string>
+        </array>
+        <array key="circular-medium.otf">
+            <string>CircularStd-Medium</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="StudentCell" rowHeight="160" id="KUx-a4-o5Q" customClass="StudentCell" customModule="Studymate" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="174"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="KUx-a4-o5Q" id="AVI-ci-DOD">
+                <rect key="frame" x="0.0" y="0.0" width="414" height="173.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ally Klionsky" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AFj-6E-Bql">
+                        <rect key="frame" x="30" y="30" width="354" height="22"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="22" id="O71-Bb-OGO"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="CircularStd-Medium" family="Circular Std" pointSize="18"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Arts, Technology, and the Business of Innovation" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fxT-Fz-k0J">
+                        <rect key="frame" x="30" y="62" width="354" height="15.5"/>
+                        <fontDescription key="fontDescription" name="CircularStd-Medium" family="Circular Std" pointSize="12"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="0.40000000000000002" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="BIO-100" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EvC-qf-tgT" customClass="CourseTag" customModule="Studymate" customModuleProvider="target">
+                        <rect key="frame" x="30" y="87.5" width="66" height="24"/>
+                        <color key="backgroundColor" name="red"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="24" id="svr-4a-zao"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="CircularStd-Black" family="Circular Std" pointSize="12"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                <integer key="value" value="2"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                            <userDefinedRuntimeAttribute type="number" keyPath="leftInset">
+                                <real key="value" value="10"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="rightInset">
+                                <real key="value" value="10"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="BIO-100" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="662-t0-TXq" customClass="CourseTag" customModule="Studymate" customModuleProvider="target">
+                        <rect key="frame" x="30" y="121.5" width="66" height="24"/>
+                        <color key="backgroundColor" name="red"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="24" id="1ja-YX-U6E"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="CircularStd-Black" family="Circular Std" pointSize="12"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                <integer key="value" value="2"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                            <userDefinedRuntimeAttribute type="number" keyPath="leftInset">
+                                <real key="value" value="10"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="rightInset">
+                                <real key="value" value="10"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="BIO-100" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zgW-MB-RIX" customClass="CourseTag" customModule="Studymate" customModuleProvider="target">
+                        <rect key="frame" x="108" y="87.5" width="66" height="24"/>
+                        <color key="backgroundColor" name="red"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="24" id="JYP-g8-lWh"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="CircularStd-Black" family="Circular Std" pointSize="12"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                <integer key="value" value="2"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                            <userDefinedRuntimeAttribute type="number" keyPath="leftInset">
+                                <real key="value" value="10"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="rightInset">
+                                <real key="value" value="10"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="BIO-100" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="osc-53-4Ug" customClass="CourseTag" customModule="Studymate" customModuleProvider="target">
+                        <rect key="frame" x="186" y="87.5" width="66" height="24"/>
+                        <color key="backgroundColor" name="red"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="24" id="e68-az-2Ct"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="CircularStd-Black" family="Circular Std" pointSize="12"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                <integer key="value" value="2"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                            <userDefinedRuntimeAttribute type="number" keyPath="leftInset">
+                                <real key="value" value="10"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="rightInset">
+                                <real key="value" value="10"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="BIO-100" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tMT-Ab-57m" customClass="CourseTag" customModule="Studymate" customModuleProvider="target">
+                        <rect key="frame" x="108" y="121.5" width="66" height="24"/>
+                        <color key="backgroundColor" name="red"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="24" id="dSi-Xl-fjM"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="CircularStd-Black" family="Circular Std" pointSize="12"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                <integer key="value" value="2"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                            <userDefinedRuntimeAttribute type="number" keyPath="leftInset">
+                                <real key="value" value="10"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="rightInset">
+                                <real key="value" value="10"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="BIO-100" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dYL-6n-Gu3" customClass="CourseTag" customModule="Studymate" customModuleProvider="target">
+                        <rect key="frame" x="186" y="121.5" width="66" height="24"/>
+                        <color key="backgroundColor" name="red"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="24" id="gi4-Fk-Ez1"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="CircularStd-Black" family="Circular Std" pointSize="12"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                <integer key="value" value="2"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                            <userDefinedRuntimeAttribute type="number" keyPath="leftInset">
+                                <real key="value" value="10"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="rightInset">
+                                <real key="value" value="10"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="AFj-6E-Bql" secondAttribute="trailing" constant="30" id="4ec-cn-9se"/>
+                    <constraint firstItem="zgW-MB-RIX" firstAttribute="top" secondItem="EvC-qf-tgT" secondAttribute="top" id="5ia-gG-Hgs"/>
+                    <constraint firstItem="dYL-6n-Gu3" firstAttribute="top" secondItem="tMT-Ab-57m" secondAttribute="top" id="Cwf-F8-WAF"/>
+                    <constraint firstItem="osc-53-4Ug" firstAttribute="leading" secondItem="zgW-MB-RIX" secondAttribute="trailing" constant="12" id="FEo-eu-6zL"/>
+                    <constraint firstItem="osc-53-4Ug" firstAttribute="top" secondItem="zgW-MB-RIX" secondAttribute="top" id="FSS-rJ-2BW"/>
+                    <constraint firstItem="AFj-6E-Bql" firstAttribute="leading" secondItem="AVI-ci-DOD" secondAttribute="leading" constant="30" id="GGX-yp-P2x"/>
+                    <constraint firstItem="662-t0-TXq" firstAttribute="top" secondItem="EvC-qf-tgT" secondAttribute="bottom" constant="10" id="HFX-g5-hhS"/>
+                    <constraint firstItem="AFj-6E-Bql" firstAttribute="top" secondItem="AVI-ci-DOD" secondAttribute="top" constant="30" id="KoO-lM-PwN"/>
+                    <constraint firstItem="tMT-Ab-57m" firstAttribute="top" secondItem="662-t0-TXq" secondAttribute="top" id="T94-Ms-LHX"/>
+                    <constraint firstAttribute="trailing" secondItem="fxT-Fz-k0J" secondAttribute="trailing" constant="30" id="UOP-7a-RRY"/>
+                    <constraint firstItem="EvC-qf-tgT" firstAttribute="top" secondItem="fxT-Fz-k0J" secondAttribute="bottom" constant="10" id="aQd-Wh-y1c"/>
+                    <constraint firstItem="EvC-qf-tgT" firstAttribute="leading" secondItem="AVI-ci-DOD" secondAttribute="leading" constant="30" id="aVM-zt-X72"/>
+                    <constraint firstItem="zgW-MB-RIX" firstAttribute="leading" secondItem="EvC-qf-tgT" secondAttribute="trailing" constant="12" id="bg4-3y-y17"/>
+                    <constraint firstItem="dYL-6n-Gu3" firstAttribute="leading" secondItem="tMT-Ab-57m" secondAttribute="trailing" constant="12" id="er7-UD-2N3"/>
+                    <constraint firstItem="tMT-Ab-57m" firstAttribute="leading" secondItem="662-t0-TXq" secondAttribute="trailing" constant="12" id="i14-2B-vMK"/>
+                    <constraint firstItem="662-t0-TXq" firstAttribute="leading" secondItem="EvC-qf-tgT" secondAttribute="leading" id="r11-3X-Q9a"/>
+                    <constraint firstItem="fxT-Fz-k0J" firstAttribute="leading" secondItem="AVI-ci-DOD" secondAttribute="leading" constant="30" id="tRg-xD-3vW"/>
+                    <constraint firstItem="fxT-Fz-k0J" firstAttribute="top" secondItem="AFj-6E-Bql" secondAttribute="bottom" constant="10" id="y1v-jT-e3W"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="course1" destination="EvC-qf-tgT" id="Ut2-Bx-Pqq"/>
+                <outlet property="course2" destination="zgW-MB-RIX" id="830-e6-1lB"/>
+                <outlet property="course3" destination="osc-53-4Ug" id="cgV-Xx-4kv"/>
+                <outlet property="course4" destination="662-t0-TXq" id="sZa-ge-ufN"/>
+                <outlet property="course5" destination="tMT-Ab-57m" id="vG7-6o-Csj"/>
+                <outlet property="course6" destination="dYL-6n-Gu3" id="2CW-3R-lQc"/>
+                <outlet property="majorLabel" destination="fxT-Fz-k0J" id="RVp-MG-NgF"/>
+                <outlet property="nameLabel" destination="AFj-6E-Bql" id="5We-Nr-mor"/>
+            </connections>
+            <point key="canvasLocation" x="237.68115942028987" y="-51.5625"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <namedColor name="red">
+            <color red="0.90196078431372551" green="0.28627450980392155" blue="0.28627450980392155" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>
